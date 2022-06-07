@@ -1,0 +1,41 @@
+
+@font-face {
+    font-family: 'Charis';
+    src: url("../fonts/CharisSIL-Regular.ttf");
+}
+
+body{
+    background-color: #232528
+}
+
+.title{
+    top: 35%;
+    left: 20%;
+    position: absolute;
+    font-size: 10vh;
+    font-family: Charis;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.icons{
+    color: #FFFFFF;
+    position: absolute;
+    width: 8%;
+    height: 8%;
+}
+
+.github{
+    top: 47%;
+    left: 60%;
+}
+
+.discord{
+    top: 47%;
+    left: 60%;
+}
+
+.email{
+    top: 65%;
+    left: 60%;
+}
