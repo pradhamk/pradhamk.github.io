@@ -31,11 +31,15 @@ body{
 }
 
 .discord{
-    top: 47%;
+    top: 34%;
     left: 60%;
 }
 
 .email{
-    top: 65%;
+    top: 60%;
     left: 60%;
+}
+
+.icons:hover{
+    transform: scale(1.2);
 }
