@@ -9,8 +9,8 @@ body{
 }
 
 .title{
-    top: 41vh;
-    left: 26vw;
+    top: 430px;
+    left: 24vw;
     padding-right: 10%;
     position: absolute;
     font-size: 6vmin;
@@ -27,25 +27,38 @@ body{
 .icons{
     color: #FFFFFF;
     position: absolute;
-    width: 5%;
-    height: 5%;
+    width: 8%;
+    height: 8%;
 }
 
 .github{
-    top: 47%;
+    top: 51%;
     left: 60%;
 }
 
 .discord{
-    top: 34%;
+    top: 38%;
     left: 60%;
 }
 
 .email{
-    top: 60%;
+    top: 64%;
     left: 60%;
 }
 
 .icons:hover{
     transform: scale(1.2);
+}
+
+/*Reponsiveness for the title*/
+@media screen and (max-width: 966px) {
+    .title{
+        top: 15vh;
+        left: 38%;
+        text-align: center;
+    }
+    
+    .icons{
+        left: 45%;
+    }
 }
