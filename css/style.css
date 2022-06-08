@@ -9,20 +9,26 @@ body{
 }
 
 .title{
-    top: 35%;
-    left: 20%;
+    top: 41vh;
+    left: 26vw;
+    padding-right: 10%;
     position: absolute;
-    font-size: 10vh;
+    font-size: 6vmin;
     font-family: Charis;
     font-weight: bold;
     color: #FFFFFF;
 }
 
+.iconbox{
+    margin: 30%;
+    padding-left: 40%;
+}
+
 .icons{
     color: #FFFFFF;
     position: absolute;
-    width: 8%;
-    height: 8%;
+    width: 5%;
+    height: 5%;
 }
 
 .github{
