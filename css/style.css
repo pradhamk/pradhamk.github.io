@@ -4,6 +4,15 @@
     src: url("../fonts/CharisSIL-Regular.ttf");
 }
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 body{
     background-color: #232528
 }
@@ -17,6 +26,7 @@ body{
     font-family: Charis;
     font-weight: bold;
     color: #FFFFFF;
+    animation: fadeIn linear 1 2s;
 }
 
 .iconbox{
@@ -29,6 +39,7 @@ body{
     position: absolute;
     width: 8%;
     height: 8%;
+    animation: fadeIn linear 1 2s;
 }
 
 .github{
@@ -50,7 +61,7 @@ body{
     transform: scale(1.2);
 }
 
-/*Reponsiveness for the title*/
+/*Adds Reponsiveness to elements*/
 @media screen and (max-width: 966px) {
     .title{
         top: 15vh;
