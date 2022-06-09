@@ -19,7 +19,7 @@ body{
 }
 
 .title{
-    top: 46vh;
+    top: 44vh;
     left: 24vw;
     padding-right: 10%;
     position: absolute;
@@ -51,6 +51,7 @@ body{
 .discord{
     top: 38%;
     left: 60%;
+    animation: spin 3s infinite linear;
 }
 
 .email{
@@ -66,7 +67,7 @@ body{
 @media screen and (max-width: 966px) {
     .title{
         top: 15vh;
-        left: 38%;
+        left: 35%;
         text-align: center;
     }
     
