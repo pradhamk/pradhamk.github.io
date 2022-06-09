@@ -15,14 +15,17 @@
 }
 
 body{
-    background-color: #232528
+    background-image: linear-gradient(to bottom right, #0f0f0e,#232528);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .title{
-    top: 46vh;
+    top: 47vh;
     left: 24vw;
     position: absolute;
-    font-size: 6vmin;
+    font-size: 50px;
     font-family: Charis;
     font-weight: bold;
     color: #FFFFFF;
@@ -62,8 +65,9 @@ body{
 }
 
 /*Adds Reponsiveness to elements*/
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 730px) {
     .title{
+        font-size: 6vmin;
         top: 15vh;
         left: 35%;
         text-align: center;
