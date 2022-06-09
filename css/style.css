@@ -3,6 +3,13 @@
     font-family: 'Charis';
     font-display: swap;
     src: url("../fonts/CharisSIL-Regular.ttf");
+    src: url("../fonts/CharisSIL-Regular.woff") format("woff"),
+    url("../fonts/CharisSIL-Regular.woff2") format("woff2"),
+    url("../fonts/CharisSIL-Regular.eot") format("embedded-opentype"),
+    url("../fonts/CharisSIL-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/CharisSIL-Regular.svg") format("svg"),
+
+
 }
 
 @keyframes fadeIn {
@@ -15,14 +22,15 @@
 }
 
 body{
-    background-image: linear-gradient(to bottom right, #0f0f0e,#232528);
+    background-image: linear-gradient(to bottom right, #0f0f0e, #232528, #211d1d);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    width: 100%;
 }
 
 .title{
-    top: 47vh;
+    top: 45vh;
     left: 24vw;
     position: absolute;
     font-size: 50px;
