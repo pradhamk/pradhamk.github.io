@@ -21,7 +21,6 @@ body{
 .title{
     top: 46vh;
     left: 24vw;
-    padding-right: 10%;
     position: absolute;
     font-size: 6vmin;
     font-family: Charis;
@@ -63,10 +62,10 @@ body{
 }
 
 /*Adds Reponsiveness to elements*/
-@media screen and (max-width: 966px) {
+@media screen and (max-width: 550px) {
     .title{
         top: 15vh;
-        left: 38%;
+        left: 35%;
         text-align: center;
     }
     
