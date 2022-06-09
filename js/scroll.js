@@ -1,16 +1,14 @@
-let icons = ["discord","github","email"];
+let icons = ["email","github","discord"];
+let point = 2;
 
 setInterval(() => {
-    let temp = icons[1]
-    let other = icons[2]
-    let otherother = icons[0]
-    icons[2] = temp
-    icons[1] = otherother
-    icons[0] = other
+    console.log(icons)
 
-    for(let i = icons.length-1; i >= 0; i--){
-        let element = document.getElementsByClassName(icons[i])[0].style
-        element.transitionDuration = "2s"
-        element.transform = "translate(0,-25px)"
-    }
+    let element = document.getElementsByClassName(icons[point])[0].style
+    element.transitionDuration = "1s"
+    element.transform = "translate(0,+26vh)"
+    
+    let val = icons.pop()
+    icons.unshift(val)
+    
 },2000)
